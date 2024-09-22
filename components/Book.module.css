@@ -1,0 +1,16 @@
+.book {
+    background-color: #f5f5dc; /* ベージュ色 */
+    border: 2px solid #8b4513; /* 茶色のボーダー */
+    width: 60px;
+    height: 100%; /* 縦いっぱいに広がる */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    writing-mode: vertical-rl; /* 縦書き */
+    text-orientation: upright; /* 文字の向きを正しくする */
+    font-size: 14px;
+    font-weight: bold;
+  }

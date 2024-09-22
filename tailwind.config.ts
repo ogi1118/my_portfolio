@@ -8,12 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      flexGrow: {
+        '2': '2',
+        '4': '4',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        wood: "#8B4513",
       },
     },
   },
   plugins: [],
 };
+
 export default config;
