@@ -1,0 +1,21 @@
+.bookshelfContainer {
+  height: 100vh; /* 画面全体の高さ */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 16px solid #A08050;
+}
+
+.bookshelfSection {
+  border: 16px solid #A08050;
+  display: flex;
+  flex-direction: row;
+}
+
+.section4 {
+  flex-grow: 4;
+}
+
+.section2 {
+  flex-grow: 2;
+}

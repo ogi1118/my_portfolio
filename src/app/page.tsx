@@ -1,6 +1,12 @@
+// /src/app/page.tsx
+import React from "react";
+import Bookshelf from "../../components/Bookshelf";
+import styles from "./page.module.css";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>develop</div>
-  );
-}
+    <Bookshelf></Bookshelf>
+  )
+};
+
+export default Home;
