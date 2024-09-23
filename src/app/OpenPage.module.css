@@ -1,0 +1,17 @@
+.bookPage {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: #fdf5e6;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .leftPage, .rightPage {
+    border: #000;
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,13 +1,15 @@
 // /components/Book.tsx
 import React from 'react';
 import styles from './Book.module.css';
+import Link from 'next/link';
 
-
-const Book = ({ title }) => {
+const Book = ({ title, className = '', href = '#' }) => {
     return (
-        <div className={styles.book}>
-            <div className={styles.title}>{title}</div>
-        </div>
+        <Link href={href}>
+            <div className={`${styles.book} ${styles.cover} ${className}`} >
+                <div className={styles.title}>{title}</div>
+            </div>
+        </Link>
     );
 };
 
