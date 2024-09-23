@@ -1,0 +1,32 @@
+.bookshelfContainer {
+  height: 100vh; /* 画面全体の高さ */
+  width: 100vw; /* 画面全体の幅 */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 16px solid #A08050;
+}
+
+.bookshelfSection {
+  border: 16px solid #A08050;
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+  background-color: #806237ed;
+}
+
+.section4 {
+  flex-grow: 4;
+}
+
+.section2 {
+  flex-grow: 2;
+}
+
+.header {
+  background-color: #A08050; /* 茶色の背景色 */
+  padding: 16px;
+  color: white; /* テキストの色を白に設定 */
+  font-size: 1.5rem;
+  text-align: center;
+}
