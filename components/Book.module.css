@@ -1,16 +1,60 @@
+/* /coponents/Book.module.css */
 .book {
-    background-color: #f5f5dc; /* ベージュ色 */
-    border: 2px solid #8b4513; /* 茶色のボーダー */
-    width: 60px;
+    border: 2px solid #333; 
+    width: 240px;
     height: 100%; /* 縦いっぱいに広がる */
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px;
   }
   
   .title {
-    writing-mode: vertical-rl; /* 縦書き */
-    text-orientation: upright; /* 文字の向きを正しくする */
     font-size: 14px;
     font-weight: bold;
+    justify-content: center;
+  }
+
+  .redColor{
+    background-color: rgb(139, 63, 63);
+  }
+  .blueColor{
+    background-color: rgb(79, 79, 157);
+  }
+  .greenColor{
+    background-color: rgb(47, 102, 47);
+  }
+  .brownColor{
+    background-color: rgb(116, 55, 55);
+  }
+  .r_greenColor{
+    background-color: rgb(0, 179, 90);
+  }
+
+  .cover {
+    width: 240px;
+    height: 100%; /* 縦いっぱいに広がる */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    transform: rotateY(-10deg);
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transition: all 0.5s ease-in;
+  }
+
+  .book:hover .cover {
+    transform: rotateY(-180deg);
+  }
+
+  
+  .container {
+    width: 250px;
+    height: 100%;
+    background: #2e517d;
+    transform: translate(-50%, -50%);
+  }
+  .container:hover .cover {
+    transform: rotateY(-180deg);
   }
